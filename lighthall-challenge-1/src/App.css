@@ -10,6 +10,20 @@ header {
     flex-direction: column;
     align-items: center;
 }
-.clickCounter-container #incrimentButton {
+.clickCounter-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    padding: 1rem;
+    border: 1px solid blue;
+}
+.clickCounter-actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.clickCounter-actions button {
     font-size: 14px;
 }
+
