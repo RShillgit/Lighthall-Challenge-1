@@ -150,6 +150,7 @@ function App() {
         :
         <div className='loadingPage'>
             <h1>Loading...</h1>
+            <p>please enable location for this app to work</p>
         </div>
       }
     </div>
