@@ -17,6 +17,7 @@ function App() {
   useEffect(() => {
 
     // Fetch all locations and click count from db
+    // https://lighthall-challenge-1-production.up.railway.app/
     fetch('http://localhost:8000', {
       headers: {"Content-Type": "application/json"},
       mode: 'cors'
