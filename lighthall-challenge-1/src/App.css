@@ -1,29 +1,44 @@
 html{
+    font-size: 20px;
+}
+button {
     font-size: 18px;
 }
 header {
     display: flex;
     justify-content: center;
 }
-.clickCounter-container {
+.totalClicks-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.clickCounter-main {
+.totalClicks-container .totalClicks-main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 200px;
-    padding: 1rem;
-    border: 1px solid blue;
+    border: 1px solid black;
+    border-radius: 8px;
+    min-width: 300px;
 }
-.clickCounter-actions {
+.totalClicks-container .totalClicks-main .totalClicks-actions {
+    margin-bottom: 1rem;
+}
+.locations {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0 1rem 1rem 1rem;
+    margin: 1rem;
 }
-.clickCounter-actions button {
-    font-size: 14px;
+.locations .individualLocation {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 1rem;
+    min-width: 300px;
+    justify-content: center;
 }
 
