@@ -17,8 +17,7 @@ function App() {
   useEffect(() => {
 
     // Fetch all locations and click count from db
-    // https://lighthall-challenge-1-production.up.railway.app/
-    fetch('http://localhost:8000', {
+    fetch('https://lighthall-challenge-1-production.up.railway.app/', {
       headers: {"Content-Type": "application/json"},
       mode: 'cors'
     })
@@ -85,7 +84,7 @@ function App() {
         else return location;
       }))
 
-      fetch('http://localhost:8000', {
+      fetch('https://lighthall-challenge-1-production.up.railway.app/', {
         method: 'POST',
         headers: {"Content-Type": "application/json"},
         mode: 'cors',
@@ -96,7 +95,7 @@ function App() {
 
     // User's state does not exist yet
     else {
-      fetch('http://localhost:8000', {
+      fetch('https://lighthall-challenge-1-production.up.railway.app/', {
         method: 'POST',
         headers: {"Content-Type": "application/json"},
         mode: 'cors',
