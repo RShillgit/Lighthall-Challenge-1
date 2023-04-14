@@ -42,3 +42,9 @@ header {
     justify-content: center;
 }
 
+.loadingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
