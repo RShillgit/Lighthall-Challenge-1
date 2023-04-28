@@ -1,4 +1,4 @@
-# Lighthall-Challenge-1
+# Chasing the Clicks
 Level 1 Challenge of Lighthall's Software Engineering Super League
 
 ## Assignment
